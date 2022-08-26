@@ -1,5 +1,5 @@
 import { Component } from "react";
-import check from './check.png'
+import bag from './bag.png'
 
 export class GroceryList extends Component {
     state = {  // the state of what will change
@@ -62,7 +62,7 @@ export class GroceryList extends Component {
                 <ul> 
                     {this.state.groceryList.map((item, index) => (  // index - each element appears under its own individual serial number, which will become its unique key
                         <li onClick={this.crossedword} key={index}>
-                            <img src={check} className="check" alt="check" />
+                            <img src={bag} className="bag" alt="bag" />
                             {item}</li>
                     ))} 
                     
