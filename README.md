@@ -1,6 +1,6 @@
 <div>
   <h1>Grocery List</h1> 
-  <img src="" alt="" width="auto">
+  <img src="Grocery.JPG" alt="" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
